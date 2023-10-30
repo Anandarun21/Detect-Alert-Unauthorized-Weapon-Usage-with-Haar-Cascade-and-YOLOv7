@@ -1,0 +1,14 @@
+python detect.py --weights model.pt --conf 0.5 --img-size 640 --source 0 --view-img --no-trace		 ##for showing detection with alerts
+
+python detect2.py --weights model.pt --conf 0.5 --img-size 640 --source 0 --view-img --no-trace        ##for showing detection accuracy without alerts
+
+python detect2.py --weights best.pt --conf 0.4 --img-size 640 --source 0 --view-img --no-trace        ##for showing detection accuracy without alerts along with class names
+
+
+ui files:
+
+streamlit run webapp.py 	##for showing detection with alerts
+
+streamlit run webapp2.py	 ##for showing detection accuracy without alerts
+
+streamlit run webapp3.py	##for showing detection accuracy without alerts along with class names

@@ -1,0 +1,1 @@
+names: ['Handgun 0', 'Sword 1', 'SMG 2', 'Sniper 3', 'Automatic Rifle 4', 'Bazooka 5','Grenade Launcher 6', 'Knife 7', 'Shotgun 8' ]
